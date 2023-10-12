@@ -1,0 +1,512 @@
+body
+{   
+    margin: 0;
+    background: #e2e2e2;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: #57614e;
+    line-height: 1.3;
+    
+    
+
+}
+h1
+{
+    color: #57614e;
+    font: 29px/30px "Times New Roman", Times, serif;
+    margin: 0 0 12px;
+    text-transform: uppercase;
+}
+.w
+{
+    display: flex;
+    width: 960px;
+    margin: 0 auto;
+}
+.header__inner
+{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-left: 10px;
+font: bold 13px/24px Times, "Times New Roman", serif;
+}
+.header
+{   
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 0 20px 10px;
+    background: #4e5944 url(../images/bg-header.jpg) repeat-x left bottom;
+}
+*
+{
+    box-sizing: border-box;
+}
+.nav__a
+{
+    color: #b8c6ac;
+    text-decoration: underline;
+    transition: color .2s linear;
+    margin: 0 10px;
+}
+.nav__a:hover
+{
+    color: #fff;
+}
+.nav__a:active
+{
+    color: #fff;
+}
+.nav__a:focus
+{
+    color: #fff;
+
+}
+.about
+{   
+    margin-left: 25px;
+    padding: 0px 0 12px;
+    max-width: 650px;
+    border-right: 0.1px dashed gray;
+}
+.about h1
+{
+    font-weight: lighter;
+    font-size: 25px;
+    padding: 12px 0 12px;
+}
+.about p
+{
+    padding-right: 20px;
+}
+p
+{
+    color: #626262;
+    font: 14px/24px Arial, Helvetica, sans-serif;
+    margin: 0 0 24px;
+}
+.testimonials
+{   
+    margin-left: 20px;
+    padding: 24px 20px;
+}
+.testimonials h2
+{   
+    font-size: 16px;
+    font-weight: lighter;
+    letter-spacing: 3px;
+    padding-bottom: 5px;
+}
+
+.testimonials span
+{   
+    display: block;
+    padding: 15px 15px 0;
+    text-align: right;
+}
+
+.section
+{   
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid white;
+    background: #eee;
+    margin-bottom: 30px;
+
+}
+.section h1
+{
+    font-size: 32px;
+    line-height: 36px;
+    padding: 12px 0 12px;
+    text-transform: none;
+}
+.section2
+{   
+    border-bottom: 1px solid white ;
+    border-right: solid white;
+    width: 100%;
+    color: #728063;
+    padding: 0 10px;
+}
+
+
+.section2 h2
+{
+    color: #728063;
+    width: 940px;
+    margin: 0 auto 24px;
+    padding: 0 10px;
+}
+.allpic
+{
+    display: flex;
+    justify-content: space-between;
+}
+.pic
+{   
+    margin: 0 15px 150px;
+    padding: 5px 5px;
+}
+.textimage
+{
+    color: #626262;
+}
+.section2 h1
+{
+    color: #728063;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.readmore
+{   
+    background: #626262;
+    border: none;
+    color: #fff;
+    font: 12px/28px Arial, Helvetica, sans-serif;
+    width: 97px;
+    text-align: center;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+}
+.readmore:hover
+{
+    background: #2e2d2d;
+}
+
+/* footer */
+
+.footer
+{
+    display: flex;
+background: #d9d9d9;
+}
+.item
+{
+    flex: 1 1 0;
+    border-right: 1px solid #c2c2c2;
+    text-align: center;
+    margin: 0;
+    /* font-size: 7px; */
+    font: bold 12px/24px Arial, Helvetica, sans-serif;
+}
+
+.item p
+{
+    font-size: 15px;
+}
+.item:last-child
+{
+    border-left: 1px solid #c2c2c2;
+}
+.subscribe
+{
+    width: 212px;
+}
+.ff
+{
+    background: #4e5944 url(../images/bg-header.jpg) repeat-x left bottom;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 50px;
+}
+#contents{
+    padding: 30px 0 0;
+    margin: 0 auto;
+    width: 960px;
+    border-bottom: 1px solid white;
+}
+
+.wehave
+{
+    padding-left: 15px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+h2
+{
+    font-weight: lighter; 
+    letter-spacing: 2px; 
+    font: 19px/24px "Times New Roman", Times, serif;
+    color: #626262;
+}
+.wehave p
+{
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+.contentt
+{
+    display: flex;
+    /* width: 940px; */
+    border-bottom: 1px white solid;
+    padding: 30px 10px 0;
+}
+.sidebar
+{
+    border-right: 1px dashed rgb(255, 255, 255);
+    width: 290px;
+}
+.sidebar p
+{
+    margin: 0;
+    padding-bottom: 24px;
+}
+.sidebar h2
+{   
+    padding-bottom: 18px;
+    margin: 0 0 6px;
+    border-bottom: 1px dashed rgb(255, 255, 255);
+}
+.sidebar:first-child h2
+{
+    margin-bottom: 0;
+    margin-top: 6px;
+}
+.sidebar a
+{
+    text-decoration: none;
+    color: #755c02;
+    font: 13px/24px Arial, Helvetica, sans-serif;
+    padding-top: 2px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    border-bottom: 1px dashed rgb(255, 255, 255);
+    
+}
+.sidea
+{   
+    display: flex;
+    flex-direction: column;
+}
+.client
+{
+    padding-top: 25px;
+}
+.client p
+{
+    font: 14px/24px Arial, Helvetica, sans-serif;
+    padding-bottom: 24px;
+    padding-right: 30px;
+
+}
+.client span
+{
+    display: block;
+    padding: 15px 15px 0;
+    text-align: right;
+}
+p
+{
+    font: 14px/24px Arial, Helvetica, sans-serif;
+    margin: 0 0 24px;
+}
+li
+{
+    list-style-type: none;
+}
+.main
+{   
+    padding: 0 0 0 32px;
+    max-width: 600px;
+    min-height: 960px;
+}
+.main h1 {
+    margin-bottom: 18px;
+}
+.image-practices
+{
+    margin: 0 0 0 -20px;
+    padding: 0;
+    
+}
+.practimage
+{      
+    position: relative;
+    margin-left: 20px;
+
+    
+}
+.practimage span
+{   
+    text-align: center;
+    background-color: #696969;
+    color: #e2e2e2;
+    display: block;
+    font: 18px/21px "Times New Roman", Times, serif;
+    width: 270px;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 1px;
+    left: 0px;
+}
+.practimage span:hover
+{
+    background-color: #2e2d2d;
+}
+.imag
+{
+    margin-right: 20px;
+    border: 2px white solid;
+    padding: 5px;
+    max-width: 500px;
+    max-height: 100px;
+}
+.practimage2
+{
+    display: flex;
+    
+    width: 600px;
+    margin-bottom: 16px;
+    margin-left: -28px;
+    padding-left: 30px;
+    
+}
+.main > .section14 ul li p b
+{
+    display: block;
+}
+.section14 ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.main > .section14 ul li
+{
+    display: inline-block;
+    margin: 0 0 24px;
+}
+.frame
+{
+    padding: 3px 3px 3px;
+    border: 1px solid rgb(248, 248, 248);
+}
+.main > .section14 ul li .frame {
+    margin-bottom: 1px;
+    margin-right: 20px;
+}
+.main > .section14 ul li p {
+    margin: 6px 0 0;
+}
+.main > .section14 ul li {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 24px;
+}
+.section14
+{
+    width: 600px;
+    margin-bottom: 16px;
+    margin-left: -28px;
+    padding-left: 30px;
+    border-bottom:1px dashed #888888;
+}
+main > .last-child
+{
+    border: none;
+}
+.box
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 6px 0 20px;
+    background-color: white;
+    height: 269px;
+    width: 578px;
+    padding: 6px 22px 0 6px;
+    
+}
+.box2
+{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.box2 img
+{
+    width: 210px;
+    margin-right: 20px;
+    padding-right: 10px;
+}
+.box2 > .info p:first-child
+{
+    padding-top: 0;
+}
+.info
+{
+    padding-left: 15px;
+}
+
+.author
+{
+    color: #755c02;
+}
+.info > h2
+{
+    color: #728063;
+    letter-spacing: 0;
+    margin-bottom: 24px;
+    margin-top: 0;
+
+}
+.info p:first-child {
+    font-size: 11px;
+    margin: 0;
+    padding-top: 24px;
+}
+.info > .readmore
+{   
+    display: flex;
+    margin-left: auto;
+    order: 2;
+    text-decoration: none;
+}
+.pict
+{   
+    float: left;
+    height: 18px;
+    width: 18px;
+    margin-left: -30px;
+    padding: 0;
+
+}
+em {
+    display: block;
+    font-size: 19px;
+    font-style: normal;
+}
+.message input[type="text"]
+{
+    height: 24px;
+    width: 590px;
+    margin: 0 0 18px;
+    padding: 0 4px;
+}
+.message label
+{
+    color: #626262;
+    display: block;
+    font: 13px/24px Arial, Helvetica, sans-serif;
+}
+.message textarea
+{
+    height: 110px;
+    width: 590px;
+    margin: 0 0 18px;
+    padding: 0 4px;
+    overflow: auto;
+    resize: none;
+}
+.message input[type="submit"]
+{
+    cursor: pointer;
+    background: #626262;
+    border: none;
+    color: #fff;
+    font: 12px/28px Arial, Helvetica, sans-serif;
+    width: 212px;
+    text-align: center;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+
+}
